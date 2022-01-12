@@ -17,8 +17,8 @@ dependencies {
     testImplementation 'org.testcontainers:selenium:1.15.3'
     testImplementation 'com.codeborne:selenide:6.2.0'
     testImplementation 'com.codeborne:selenide-proxy:6.2.0'
-    testRuntimeOnly("io.netty:netty-all:4.1.63.Final")
-    testRuntimeOnly("io.netty:netty-codec:4.1.63.Final")
+    testRuntimeOnly 'io.netty:netty-all:4.1.72.Final'
+    testRuntimeOnly 'io.netty:netty-codec:4.1.72.Final'
     testImplementation 'com.github.database-rider:rider-core:1.32.0'
     testImplementation 'com.github.database-rider:rider-junit5:1.32.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
