@@ -31,9 +31,9 @@ class ProxyTest {
     List<HarEntry> requests = proxy.getHar().getLog().getEntries();
     for (HarEntry request : requests) {
       System.out.println("URL: " + request.getUrl());
-      System.out.println("BODY: " + request.getResponse().getStatus());
-      System.out.println("BODY: " + request.getResponse().getStatusText());
-      System.out.println("BODY: " + request.getResponse().getContent().getText());
+      System.out.println("Status: " + request.getResponse().getStatus());
+      System.out.println("Status text: " + request.getResponse().getStatusText());
+      System.out.println("Body: " + request.getResponse().getContent().getText());
       System.out.println("*****************************************");
     }
 
