@@ -1,0 +1,76 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.gradle
+**/build/**
+!*/gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+**/out/**
+
+### Logging ###
+*.log
+target
+
+#exclude pem keys(AWS keys)
+*.pem
+packaged.yaml
+
+# Local .terraform directories
+**/.terraform/*
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+*.ssh
+
+*/.aws-sam
+
+!/libs/**
+!/gradle/wrapper/gradle-wrapper.jar
+.terraform.lock.hcl
+
+*.DS_Store
+
+*/allure-results/
